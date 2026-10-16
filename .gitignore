@@ -2,6 +2,7 @@
 .idea/
 *.iml
 .vscode/
+.venv/
 
 # Системные
 .DS_Store
