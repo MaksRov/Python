@@ -1,0 +1,18 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Сборка и зависимости
+target/
+build/
+node_modules/
+out/
+
+# Логи и временные файлы
+*.log
+*.tmp
