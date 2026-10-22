@@ -1,1 +1,2 @@
-print('Hello, Juicy World')
+print('Он сказал: "Привет"')
+print("It's fine")          # апостроф внутри двойных

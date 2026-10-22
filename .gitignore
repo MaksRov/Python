@@ -3,6 +3,7 @@
 *.iml
 .vscode/
 .venv/
+.pytest_cache/
 
 # Системные
 .DS_Store
