@@ -4,6 +4,8 @@
 .vscode/
 .venv/
 .pytest_cache/
+*.pyc
+__pycache__/
 
 # Системные
 .DS_Store
