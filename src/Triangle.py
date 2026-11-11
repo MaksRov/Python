@@ -2,6 +2,9 @@
 
 from src.Figure import Figure
 from math import sqrt
+from src.Circle import Circle
+from src.Rectangle import Rectangle
+from src.Square import Square
 
 
 # Создаем класс треугольника
