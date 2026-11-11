@@ -1,15 +1,12 @@
 # Импортируем базовый класс фигуры
-
 from src.Figure import Figure
 from math import sqrt
-from src.Circle import Circle
-from src.Rectangle import Rectangle
-from src.Square import Square
 
 
 # Создаем класс треугольника
 
 class Triangle(Figure):
+    name = 'Треугольник'
     def __init__(self, first_side, second_side, third_side):
         if first_side <= 0 or second_side <= 0 or third_side <= 0:
             raise ValueError('Стороны треугольника должны быть > 0')
@@ -36,7 +33,7 @@ class Triangle(Figure):
         return self.area() + figure.area()
 
 
-print('Для вычисления площади и периметра треугольника введите его стороны:')
-a = Triangle(int(input()), int(input()), int(input()))
-print('Площадь треугольника:', a.area())
-print('Периметр треугольника:', a.perimeter())
+# print('Для вычисления площади и периметра треугольника введите его стороны:')
+# a = Triangle(int(input()), int(input()), int(input()))
+# print('Площадь треугольника:', a.area())
+# print('Периметр треугольника:', a.perimeter())

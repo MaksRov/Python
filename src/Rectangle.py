@@ -1,14 +1,12 @@
 # Импорт всего необходимого
 
 from src.Figure import Figure
-from src.Circle import Circle
-from src.Triangle import Triangle
-from src.Square import Square
 
 
 # Создание класса фигуры Прямоугольник
 
 class Rectangle(Figure):
+    name = 'Прямоугольник'
     def __init__(self, first_side, second_side):
         if first_side <= 0 or second_side <= 0:
             raise ValueError("Стороны прямоугольника должны быть больше 0")
