@@ -5,6 +5,7 @@ from src.Circle import Circle
 from src.Triangle import Triangle
 from src.Square import Square
 
+
 # Создание класса фигуры Прямоугольник
 
 class Rectangle(Figure):

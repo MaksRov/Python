@@ -6,6 +6,7 @@ from src.Triangle import Triangle
 from src.Rectangle import Rectangle
 from src.Square import Square
 
+
 # Создание класса фигуры Круг
 
 class Circle(Figure):
@@ -24,6 +25,7 @@ class Circle(Figure):
         if not isinstance(figure, Figure):
             raise ValueError('Передана неизвестная фигура')
         return self.area() + figure.area()
+
 
 c = Circle(5)
 c.area()
